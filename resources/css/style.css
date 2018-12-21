@@ -1,22 +1,48 @@
 body {
-  background-color: #FFFFFF;
   text-align: center;
-  font-family: Helvetica, Arial, Swiss, sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 
-.header--background {
-  background-image: url("resources/images/the-flatiron-building.png");
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
 }
 
-.header--main [
-font-family: Helvetica, Arial, Swiss, sans-serif;
-font-size: 70px;
-font-weight: bold;
-color: #FFFFFF;
-]
+.first-nav {
 
-.nav--top {
-  font-family: Helvetica, Arial, Swiss, sans-serif;
   font-size: 18px;
+  color: white;
+}
+
+.rockstar-image {
+  background: url('https://raw.githubusercontent.com/cheriamour/broadway/master/resources/images/the-flatiron-building.png');
+  background-size: cover;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.sub-info {
+  font-size: 14px;
+}
+
+.footer {
+  color: white;
+  background-color: dimgray;
+  font-size: 11px;
+  font-color: white;
+  text-align: left;
+}
+
+.footer-nav {
+  font-size: 14px;
   color: white;
 }
