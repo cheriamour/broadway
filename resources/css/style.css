@@ -1,13 +1,22 @@
 body {
   background-color: #FFFFFF;
   text-align: center;
-  font-family: Helvetica, serif;
+  font-family: Helvetica, Arial, Swiss, sans-serif;
+}
+
+.header--background {
+  background-image: url("resources/images/the-flatiron-building.png");
 }
 
 .header--main [
-
-font-family: Helvetica;
+font-family: Helvetica, Arial, Swiss, sans-serif;
 font-size: 70px;
 font-weight: bold;
-color: white;
+color: #FFFFFF;
 ]
+
+.nav--top {
+  font-family: Helvetica, Arial, Swiss, sans-serif;
+  font-size: 18px;
+  color: white;
+}
